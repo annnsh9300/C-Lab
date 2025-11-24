@@ -1,0 +1,15 @@
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\bin\Debug\net6.0\new_employee_app.exe
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\bin\Debug\net6.0\new_employee_app.deps.json
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\bin\Debug\net6.0\new_employee_app.runtimeconfig.json
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\bin\Debug\net6.0\new_employee_app.dll
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\bin\Debug\net6.0\new_employee_app.pdb
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\new_employee_app.csproj.AssemblyReference.cache
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\new_employee_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\new_employee_app.AssemblyInfoInputs.cache
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\new_employee_app.AssemblyInfo.cs
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\new_employee_app.csproj.CoreCompileInputs.cache
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\new_employee_app.dll
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\refint\new_employee_app.dll
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\new_employee_app.pdb
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\new_employee_app.genruntimeconfig.cache
+C:\Users\student\source\C-Lab\new_employee_app\new_employee_app\obj\Debug\net6.0\ref\new_employee_app.dll

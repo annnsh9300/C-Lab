@@ -97,4 +97,9 @@ namespace EmployeeManagementApp
         {
             Address addr1 = new Address("123 Main St", "Springfield", "IL", "62701");
             HourlyEmployee hourlyEmp = new HourlyEmployee("John Doe", addr1, 20.5m, 160);
-            Console.WriteLine(hourlyEmp
+            Console.WriteLine("Not sure what goes here...");
+        }
+  
+  
+  
+  } 
