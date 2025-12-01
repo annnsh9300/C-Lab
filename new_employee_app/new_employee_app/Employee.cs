@@ -1,18 +1,40 @@
 
-
 /*
- *  Annick Nshimi
- * 11/20/2025
- * Base Employee class demonstrating inheritance and composition.
+ * Annick Nshimirimana
+ * 12/01/2025
+ * This file defines the abstract Employee base class.
+ * It demonstrates abstraction, constructors, and proper access specifiers.
  */
 
 namespace new_employee_app
 {
-    // Composition class (Employee HAS an Address)
+    public abstract class Employee   // ABSTRACT CLASS (Week 3)
+    {
+        public string Name { get; set; }  // Protected setters
+        public int EmployeeID { get; private set; } // Only set in constructor
+        public Address HomeAddress { get; protected set; }
+
+        // DEFAULT CONSTRUCTOR (Week 3)
+        protected Employee() { }
+
+        // MAIN CONSTRUCTOR
+        protected Employee(string name, int id, Address address)
+        {
+            Name = name;
+            EmployeeID = id;
+            HomeAddress = address;
+        }
+
+        // ABSTRACT METHOD → must be implemented by derived classes
+        public abstract void DisplayInfo();  // Week 3 ABSTRACTION
+    }
+
+
+    // Composition Object
     public class Address
     {
-        public string Street { get; set; }
-        public string City { get; set; }
+        public string Street { get; private set; }
+        public string City { get; private set; }
 
         public Address(string street, string city)
         {
@@ -23,29 +45,6 @@ namespace new_employee_app
         public override string ToString()
         {
             return $"{Street}, {City}";
-        }
-    }
-
-    // Base Class
-    public abstract class Employee
-    {
-        public string Name { get; set; }
-        public int EmployeeID { get; set; }
-        public Address HomeAddress { get; set; }
-
-        public Employee(string name, int id, Address address)
-        {
-            Name = name;
-            EmployeeID = id;
-            HomeAddress = address;
-        }
-
-        // POLYMORPHISM: Virtual method
-        public virtual void DisplayInfo()
-        {
-            Console.WriteLine($"ID: {EmployeeID}");
-            Console.WriteLine($"Name: {Name}");
-            Console.WriteLine($"Address: {HomeAddress}");
         }
     }
 }

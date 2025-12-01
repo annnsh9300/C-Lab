@@ -1,14 +1,39 @@
+
 /*
- *  Annick Nshimi
- * 11/20/2025
- * Demonstrates interface implementation + composition.
+ * Annick Nshimirimana
+ * 11/27/2025
+ * Demonstrates interface implementation, constructors, and access specifiers.
  */
 
 namespace new_employee_app
 {
     public class EmployeeManager : IEmployeeActions
     {
-        private List<Employee> Employees = new List<Employee>(); // COMPOSITION
+        // Private list - access specifier ensures encapsulation
+        private List<Employee> Employees;
+
+        // Week 3: Default constructor
+        public EmployeeManager()
+        {
+            Employees = new List<Employee>();
+        }
+
+        // Week 3: Overloaded constructor
+        public EmployeeManager(List<Employee> initialEmployees)
+        {
+            Employees = initialEmployees;
+        }
+        
+       public int GetTotalEmployees()
+    {
+        return Employees.Count;
+    }
+
+    public Employee GetEmployeeById(int id)
+    {
+        return Employees.FirstOrDefault(e => e.EmployeeID == id);
+    }
+
 
         public void AddEmployee(Employee emp)
         {
@@ -52,7 +77,7 @@ namespace new_employee_app
             foreach (var emp in Employees)
             {
                 if (emp.GetType().Name.ToLower() == type.ToLower())
-                    emp.DisplayInfo();
+                    emp.DisplayInfo(); // POLYMORPHISM
             }
         }
     }

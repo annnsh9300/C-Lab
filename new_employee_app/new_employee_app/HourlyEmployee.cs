@@ -1,16 +1,20 @@
+
 /*
- *  Annick Nshimi
- *  11/20/2025
- * Derived class demonstrating inheritance.
+ * Annick Nshimirimana
+ * Demonstrates inheritance + abstraction + constructors for Hourly Employee
  */
 
 namespace new_employee_app
 {
     public class HourlyEmployee : Employee
     {
-        public double HourlyRate { get; set; }
-        public double HoursWorked { get; set; }
+        public double HourlyRate { get; private set; }
+        public double HoursWorked { get; private set; }
 
+        // DEFAULT CONSTRUCTOR
+        public HourlyEmployee() { }
+
+        // MAIN CONSTRUCTOR
         public HourlyEmployee(string name, int id, Address address, double rate, double hours)
             : base(name, id, address)
         {
@@ -18,13 +22,15 @@ namespace new_employee_app
             HoursWorked = hours;
         }
 
+        // ABSTRACTION IMPLEMENTATION (Week 3)
         public override void DisplayInfo()
         {
-            base.DisplayInfo();
+            Console.WriteLine($"ID: {EmployeeID}");
+            Console.WriteLine($"Name: {Name}");
+            Console.WriteLine($"Address: {HomeAddress}");
             Console.WriteLine("Employee Type: Hourly");
             Console.WriteLine($"Hourly Rate: {HourlyRate:C}");
-            Console.WriteLine($"Hours Worked: {HoursWorked}");
-            Console.WriteLine();
+            Console.WriteLine($"Hours Worked: {HoursWorked}\n");
         }
     }
 }

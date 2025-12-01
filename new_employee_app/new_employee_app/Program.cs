@@ -1,8 +1,8 @@
 ﻿
 /*
- *  Annick Nshimi
+ *  Annick Nshimirimana
  *  11/20/2025
- *  Week 2 Main Program demonstrating interface + polymorphism.
+ *  Week 3 Main Program demonstrating interface + polymorphism.
  */
 
 using new_employee_app;
@@ -11,12 +11,12 @@ class Program
     static void Main()
     {
         
-        Console.WriteLine(" Project Week 2");
+        Console.WriteLine(" Project Week 3");
         Console.WriteLine(" Employee Management System");
         Console.WriteLine("  Annick Nshimimirimana");
         Console.WriteLine("======================\n");
 
-        Console.WriteLine("This demo shows interfaces, polymorphism, and class interactions.\n");
+        Console.WriteLine("This demo shows Abstraction, Constructors, and Access Specifiers.\n");
 
         // Create EmployeeManager (INTERFACE IMPLEMENTATION)
         IEmployeeActions manager = new EmployeeManager();
@@ -38,7 +38,9 @@ class Program
         // Display by Type
         manager.DisplayEmployeesByType("HourlyEmployee");
 
-        Console.WriteLine("End of Week 2 Demo.\n");
+        Console.WriteLine("Project Week 3 - Employee Management System\n");
+        Console.WriteLine("This demo shows abstraction, constructors, and proper access specifiers.\n");
+
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
     }
