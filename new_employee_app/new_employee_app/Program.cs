@@ -2,7 +2,7 @@
 /*
  *  Annick Nshimirimana
  *  11/30/2025
- *  Week 3 Main Program demonstrating interface + polymorphism
+ *  Week 3 Main Program demonstrating interface + polymorphism.
  */
 
 using new_employee_app;
