@@ -1,6 +1,6 @@
 /******
 * Annick Nshimimirimana
-* Week 3 Interface Update
+* Week 3 Interface Update.
 * Added new abstract methods as required.
 */
 

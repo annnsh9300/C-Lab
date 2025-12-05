@@ -41,7 +41,7 @@ class Program
         Console.WriteLine("Project Week 3 - Employee Management System\n");
         Console.WriteLine("This demo shows abstraction, constructors, and proper access specifiers.\n");
 
-        Console.WriteLine("Press any key to exit...");
+        Console.WriteLine("Press any key to exit....");
         Console.ReadKey();
     }
 }

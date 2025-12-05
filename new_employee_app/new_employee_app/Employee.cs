@@ -2,7 +2,7 @@
 /*
  * Annick Nshimirimana
  * 12/01/2025
- * This file defines the abstract Employee base class
+ * This file defines the abstract Employee base class.
  * It demonstrates abstraction, constructors, and proper access specifiers.
  */
 

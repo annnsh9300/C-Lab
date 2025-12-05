@@ -1,7 +1,7 @@
 
 /*
  * Annick Nshimirimana
- * Demonstrates abstraction + constructors for Salaried Employees.
+ * Demonstrates abstraction + constructors for Salaried Employees
  */
 
 namespace new_employee_app
