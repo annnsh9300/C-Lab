@@ -1,7 +1,7 @@
 /******
 * Annick Nshimimirimana
 * Week 3 Interface Update
-* Added new abstract methods as required
+* Added new abstract methods as required.
 */
 
 namespace new_employee_app

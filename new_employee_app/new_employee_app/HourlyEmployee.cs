@@ -1,7 +1,7 @@
 
 /*
  * Annick Nshimirimana
- * Demonstrates inheritance + abstraction + constructors for Hourly Employee
+ * Demonstrates inheritance + abstraction + constructors for Hourly Employee.
  */
 
 namespace new_employee_app

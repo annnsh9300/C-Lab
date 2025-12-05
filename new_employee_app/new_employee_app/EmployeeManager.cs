@@ -2,8 +2,7 @@
 /*
  * Annick Nshimirimana
  * 11/27/2025
- * Demonstrates interface implementation, constructors, and access specifiers.
- */
+ * Demonstrates interface implementation, constructors, and access specifiers */
 
 namespace new_employee_app
 {
