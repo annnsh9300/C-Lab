@@ -2,7 +2,7 @@
 /*
  * Annick Nshimirimana
  * 11/27/2025
- *Week 3 
+ *Week 4
  * Demonstrates Abstraction, constructors, and access specifiers */
 
 namespace new_employee_app
@@ -12,13 +12,13 @@ namespace new_employee_app
         // Private list - access specifier ensures encapsulation
         private List<Employee> Employees;
 
-        // Week 3: Default constructor
+        // Default constructor
         public EmployeeManager()
         {
             Employees = new List<Employee>();
         }
 
-        // Week 3: Overloaded constructor
+        //  Overloaded constructor
         public EmployeeManager(List<Employee> initialEmployees)
         {
             Employees = initialEmployees;

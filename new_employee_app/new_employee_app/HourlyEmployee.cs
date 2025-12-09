@@ -1,36 +1,16 @@
 
-/*
- * Annick Nshimirimana
- * Demonstrates inheritance , abstraction , constructors for Hourly Employee.
- */
+/* Author: Annick Nshimi
+* Date: 2025-02-07
+* Purpose: Defines the HourlyEmployee class, representing employees paid by hourly rate.*/
 
-namespace new_employee_app
+
+public class HourlyEmployee : Employee
 {
-    public class HourlyEmployee : Employee
+    public decimal HourlyRate { get; set; }
+    public int HoursWorked { get; set; }
+
+    public override void DisplayInfo()
     {
-        public double HourlyRate { get; private set; }
-        public double HoursWorked { get; private set; }
-
-        // DEFAULT CONSTRUCTOR
-        public HourlyEmployee() { }
-
-        // MAIN CONSTRUCTOR
-        public HourlyEmployee(string name, int id, Address address, double rate, double hours)
-            : base(name, id, address)
-        {
-            HourlyRate = rate;
-            HoursWorked = hours;
-        }
-
-        // ABSTRACTION IMPLEMENTATION (Week 3)
-        public override void DisplayInfo()
-        {
-            Console.WriteLine($"ID: {EmployeeID}");
-            Console.WriteLine($"Name: {Name}");
-            Console.WriteLine($"Address: {HomeAddress}");
-            Console.WriteLine("Employee Type: Hourly");
-            Console.WriteLine($"Hourly Rate: {HourlyRate:C}");
-            Console.WriteLine($"Hours Worked: {HoursWorked}\n");
-        }
+        Console.WriteLine($"[Hourly] {EmployeeID} - {Name}");
     }
 }
